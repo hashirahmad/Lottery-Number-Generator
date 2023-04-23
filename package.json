@@ -1,0 +1,15 @@
+{
+  "name": "agilico",
+  "version": "1.0.0",
+  "description": "You must write a simple 'Lottery Number Generator' to choose 6 unique numbers randomly where each number is within 1 to 49 inclusive; the idea is that you could then use these numbers to enter the National Lottery.",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hashir Ahmad",
+  "license": "ISC",
+  "dependencies": {
+    "jsonfile": "^6.1.0"
+  }
+}
